@@ -223,15 +223,13 @@ export default{
 
 .body, tbody {
   padding: 20px;
-
-  width: fit-content;
   background-color: #F0F0F0; 
 }
 
 h1,h2 {
   text-align: center;
   font-weight: 300;
-  display: flex;
+  display: block;
 }
 
 .build-product{
@@ -239,7 +237,7 @@ h1,h2 {
 }
 
 div{
-  display: flex;
+  display: block;
   align-items: center;
 }
 
@@ -385,7 +383,7 @@ button {
   border-bottom-left-radius: 5px;
   height: fit-content;
   flex-direction: column;
-  background-color: white;
+  background-color: rgb(219, 209, 209);
   padding-bottom: 10px;
   left: 0;
   right: 0;
