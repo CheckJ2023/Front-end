@@ -2,7 +2,7 @@
 *:before,
 *:after {
   padding: 0;
-  margin: 10px;
+  margin: 0px;
   
   box-sizing: border-box;
 }
@@ -162,7 +162,6 @@ button {
 }
 
 h1, h2 {
-  margin: 0px;
   font-size: 38px;
   font-weight: 300;
   text-align: center;
@@ -333,6 +332,9 @@ textarea {
 
 /**************** list*************/
 div{
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   display: block;
   align-items: center;
 }
