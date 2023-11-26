@@ -448,4 +448,58 @@ button:active {
     bottom: 0;
     left: 0;
 }
+
+/**************** Prod **************/
+
+#header{
+  margin:0;
+  padding: 0;
+}
+#header>h1{
+  text-align:center;
+  font-size:50px;
+  filter: opacity(0.7);
+}
+#header>p{
+  text-align:center;
+  margin: 20px;
+  font-size:30px;
+  filter: opacity(0.5);
+  font-style:italic;
+}
+
+.container{
+  background-image: url("https://images.unsplash.com/photo-1495195129352-aeb325a55b65?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1776&q=80");
+  width:100vw;
+  height: 100vh;
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+
+}
+
+
+.card{
+  display:flex;
+  flex-direction:column;
+  border: 1px solid;
+  background-color: #080710;
+  width:300px;
+  height: 500px;
+  margin-bottom:20px;
+  margin-left: 15px;
+}
+
+.card-image{
+  width:250px;
+  height:350px;
+}
+
+.card-image>img{
+  width:250px;
+  height:350px;
+  border-radius:40px;
+  object-fit:cover;
+  object-position:bottom;
+}
 </style>
